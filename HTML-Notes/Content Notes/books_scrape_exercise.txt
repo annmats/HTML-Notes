@@ -1,0 +1,15 @@
+# To extract image source
+•image_source = response.css('img::attr(src)').extract_first()
+•response.urljoin(image_source)
+
+# To extract the Star rating
+•response.css('p::attr(class)').extract_first()
+
+# To extract Title
+•response.css('h3 > a::attr(title)').extract_first()
+
+# To extract Price
+•response.css('div.product_price > p.price_color::text').extract_first()
+
+
+

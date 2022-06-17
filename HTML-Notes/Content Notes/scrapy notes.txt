@@ -1,0 +1,65 @@
+# Everytime you activate scrapy shell use this
+# You need to install again the scrapy
+•cd tutorial
+•cd pyenv
+•.\pyenv\Scripts\activate
+
+# To pop up the visual code editor
+•code quotes.py
+
+# how to operate in scrapy shell mode
+•scrapy shell url
+
+# how to extract your desired data
+•response.css('tag.class::text').extract()
+
+# How to generate spider
+# quotes is the name of the file
+•scrapy genspider quotes toscrape.com
+
+# To run the file
+•scrapy runspider quotes.py
+
+# To save in json, csv or xml file
+•scrapy runspider quotes.py -o items.json
+•scrapy runspider quotes.py -o items.csv
+•scrapy runspider quotes.py -o items.xml
+
+
+# To open the json, csv or xml file you created
+•more items.json
+•more items.csv
+•more items.xml
+
+# To get multiple items from a page
+quote = response.css('tag.class')
+quote.css('span.text::text').extract_first()
+
+# Another way of getting multiple items
+# Indention is important in cmd
+•for quote in response.css('div.quote'):
+...     item = {
+...             'author_name' : quote.css('small.author::text').extract_first(),
+...             'text' : quote.css('span.text::text').extract_first(),
+...             'tags' : quote.css('a.tag::text').extract_first(),
+...     }
+...     print(item)
+
+# To get items in all pages
+# Inspect the next button and look for its tag and class
+# example
+•response.css('li.next > a::attr(href)').extract_first()                  #to get 'page 2'
+•next_page_url = response.css('li.next > a::attr(href)').extract_first()  #naming the function
+•response.urljoin(next_page_url)                                          #joining the url and 'page 2'
+
+# This is to be added in the spider
+•next_page_url = response.css('li.next > a::attr(href)').extract_first()
+        if next_page_url:                                                 #this is essential because this checks if there are still pages ahead or no more
+            next_page_url = response.urljoin(next_page_url)
+            yield scrapy.Request(url=next_page_url, callback=self.parse)
+
+
+
+
+
+

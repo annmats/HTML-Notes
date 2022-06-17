@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--This is for SEO-->
+        <meta name="description" content="My First Website"> 
+        <!--This is to follow the scale of the device especially if viewing through phone/tablet-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Lesson</title>
+        <link rel="icon" href="img/favicon.jpg" type="image/x-icon">
+    </head>
+    <body>
+        <!--Headings-->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <p>Lorem, <strong>ipsum dolor sit amet</strong> consectetur adipisicing elit. <em>Molestias necessitatibus</em> eveniet <mark>repellendus</mark>, quidem a iste voluptate, <s>laudantium mollitia</s> fuga quo fugit nulla, atque magnam sequi dignissimos corporis eaque optio quaerat maiores nam ipsam. Praesentium, rerum saepe. Maiores corrupti odit nostrum, <span style="Color:red;">repellendus quis adipisci</span> accusamus expedita nisi placeat laudantium porro asperiores.</p>
+
+        <p>Lorem <sub>ipsum dolor sit amet consectetur</sub> adipisicing elit. Odit ullam exercitationem <sup>temporibus aliquid harum dolor</sup> atque suscipit, facere eveniet ut ipsa molestias quos placeat, eius debitis, aut repellat laborum. Esse tempora earum molestiae autem <a href="index.html">debitis animi nobis</a> saepe hic eos nihil aspernatur libero voluptates illo eaque, consequuntur, illum sequi eius ipsum placeat, vero quia. Quibusdam pariatur dicta quae earum commodi.</p>
+
+        <!--lists-->
+
+        <ul>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+            <li>List 4</li>
+        </ul>
+
+        <ol>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+            <li>List 4</li>
+        </ol>
+
+        <!--tables-->
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mary Ann</td>
+                    <td>ann@gmail.com</td>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <td>Lovely</td>
+                    <td>love@gmail.com</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>Jineveb</td>
+                    <td>jen@gmail.com</td>
+                    <td>17</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <br>
+
+        <!--Form-->
+
+        <form action="process.php" method="post" enctype="application/x-www-form-urlencoded">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstname" id="firstname" required>
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <br>
+            <div>
+                <label>Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <br>
+            <div>
+                <label>Time</label>
+                <input type="time" name="time" id="time">
+            </div>
+            <br>
+            <div>
+                <label>Color Picker</label>
+                <input type="color" name="color" id="color">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea rows="5" cols="30" name="message" id="message" placeholder="Your comment"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>File</label>
+                <input type="file" name="file" id="file" accept="image/*" multiple>
+            </div>
+            <br>
+            <div>
+                <input type="submit" name="submit" value="Submit Form">
+                <button type="button">Click</button>
+            </div>
+        </form>
+        <br>
+
+        <!--image-->
+
+        <a href="img/favicon.jpg">
+            <img src="img/favicon.jpg" alt="Default Image" width="100">
+        </a>
+
+        <!--quotations-->
+
+        <blockquote cite="https://parade.com/937586/parade/life-quotes/">
+            <p>“Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking.” – Steve Jobs</p>
+        </blockquote>
+
+        <!--abbreviation-->
+            <br>
+            <p>The <abbr title="World Wide Web">WWW</abbr> is awesome.</p>
+            <p><cite>HTML Lesson</cite> by PinoyFreeCoder</p>
+        
+
+
+        <div style="margin-top: 500px;"></div>
+    </body>
+
+</html>

@@ -1,0 +1,11 @@
+Scrapy tutorial:
+•https://www.zyte.com/learn/how-to-get-started-with-web-scraping-using-scrapy/#
+
+Python
+•https://www.python.org/downloads/
+
+Visual Studio Code
+•https://code.visualstudio.com/
+
+Setting Up Scrapy
+•https://cdn.discordapp.com/attachments/911133373836177449/981760312548147200/Setting_up_Scrapy.pdf

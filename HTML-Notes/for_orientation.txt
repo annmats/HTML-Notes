@@ -1,0 +1,49 @@
+Hello everyone. Good afternoon. I am one of the representative 
+of Content Team. Our team is lead by Maam Phoebe Apale-Mula. 
+Then, the members are Maam Charlene Tessa Descallar,
+Sir Michael Banjo Poblete, Maam Catherine Mae Bilar, 
+Sir Grant Yeban, and yours truly Mary Ann Matuguina.
+
+So, what we do?
+We migrate content. Our tasks involves the following:
+•Content Migration
+•Data Entry / Enrichment
+• Website Testing / QA
+
+Content Migration by definition 
+is the process of moving content from one content management
+system (CMS) to another. For this task we use 
+Content Management System or CMS platform to 
+easily manage content.
+
+Next, Data Entry by definition is the job of entering
+text or other data into a computer. This task is usually
+about migrating data from datasheets.
+
+Then, Website Testing / QA, for this task we review product's
+findability then sometimes we QA the migrated pages prior 
+publishing.
+
+(This is the old content of PEI, then after migration this 
+is the new content for their new website.)
+
+To achieve this, this is the CMS platform we use to migrate
+content.
+
+We use different software for different client.
+For our current projects these are the CMS platforms we use.
+•Xperience by Kentico for IBS, PEI-Genesis, and Symmetry Elex
+•Craft CMS for AIONX, MarketPush, CatalystUnitySolutions,
+ARKCO Sales and Bowmar
+•Then, Wordpress for KITZ
+
+Example for Symmetry electronics, this task is about
+removing broken internal and external links, and changing 
+duplicates of H1 tags to H2. So to do this, using Kentico
+software we will unlink those broken links or edit tags.
+
+For upcoming project we have Melchioni, we recently completed 
+the data enhancement of 9000 datas. And we are waiting for the 
+upcoming additions.
+
+That would be all. Thank you and Welcome to ISI.
